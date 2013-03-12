@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- This file is not meant to run in the browser, it it just
+	a way to Mocha test the ModernWeb core over PhantomJS. -->
+<html>
+<head>
+	<title>Running tests on ModernWeb</title>
+	<link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+</head>
+<body>
+	<div id="mocha"></div>
+	<script src="../ModernWeb.js"></script>
+	<script src="../node_modules/mocha/mocha.js"></script>
+	<script src="../node_modules/chai/chai.js"></script>
+	<script>
+        mocha.ui('bdd'); 
+        mocha.reporter('html');
+        var expect = chai.expect;
+    </script>
+	<script src="ModernWebSpec.js"></script>
+	<script>
+		mocha.run();
+	</script>
+</body>
+</html>

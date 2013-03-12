@@ -1,0 +1,34 @@
+{
+	"name": "ModernWeb",
+	"description": "Widget that detect old browsers and suggests to update them.",
+	"version": "1.0.0",
+	"homepage": "https://github.com/viamarte/modernweb",
+	"author": {
+		"name": "Matheus Kautzmann",
+		"url": "https://github.com/mkautzmann"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/viamarte/modernweb.git"
+	},
+	"bugs": {
+		"url": "https://github.com/viamarte/modernweb/issues"
+	},
+	"scripts": {
+		"test": "grunt travis --verbose"
+	},
+	"devDependencies": {
+		"grunt" : "~0.4.0",
+		"grunt-yui-compressor": "~0.2.1",
+		"grunt-contrib-coffee": "~0.6.0",
+		"grunt-coffeelint": "~0.0.6",
+		"grunt-contrib-clean": "~0.4.0",
+		"grunt-mocha": "~0.2.3",
+		"grunt-docco": "~0.2.0",
+		"mocha": "~1.8.2",
+		"chai": "~1.5.0",
+		"docco": "~0.6.0"
+	},
+	"engine": "node 0.8.12",
+	"license": "MIT"
+}
