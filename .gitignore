@@ -1,4 +1,4 @@
 #Ignoring node_modules, MacOS/Windows system files.
 .DS_Store
 Thumbs.db
-./node_modules
+node_modules/
