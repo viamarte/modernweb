@@ -6,7 +6,11 @@ The idea came when we were having problems with older versions of Internet Explo
 using great APIs that are not available for older browsers people can't expericence the real web of today. So we
 decided to create ModernWeb, a banner that encourages people to switch to newer, better capable browsers.
 
-[Want to put it on your site? Get the banner and take a look](https://s3-sa-east-1.amazonaws.com/modernweb/scripts/ModernWeb.min.js)
+To put it on your website put this script at the end of your body tag:
+
+	<script type="text/javascript" src="https://s3-sa-east-1.amazonaws.com/modernweb/scripts/ModernWeb.min.js"></script>
+
+[Wanna download it? Click here](https://s3-sa-east-1.amazonaws.com/modernweb/scripts/ModernWeb.min.js)
 
 Development
 -----------
