@@ -19,7 +19,7 @@ This project uses Grunt to speed and automate the build process, if you want to 
 
 3. Now you have to be sure you have grunt command line interface, open your terminal and run:
 
-	sudo npm install -g grunt-cli
+		sudo npm install -g grunt-cli
 
 4. On you terminal, switch to the modernweb direcory on your cloned repository, then run:
 
