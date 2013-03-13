@@ -89,17 +89,17 @@ triggering ModernWeb display widget method.</p>             </td>             <t
       <span class="nv">localeStrings = </span><span class="nx">getLocale</span><span class="p">()</span>
 
       <span class="k">if</span> <span class="o">!</span><span class="nx">localeStrings</span><span class="o">?</span> <span class="k">then</span> <span class="nv">localeStrings = </span><span class="nx">locales</span><span class="p">.</span><span class="nx">en</span></pre></div>             </td>           </tr>                               <tr id="section-13">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-13">&#182;</a>               </div>               <p>Building CSS inline to reduce HTTP requests and external dependencies</p>             </td>             <td class="code">               <div class="highlight"><pre>      <span class="nv">cssStyle =</span>
-      <span class="s">&quot;</span><span class="err">#</span><span class="s">ModernWeb-wrapper{width:100%;height:25%;min-height:250px;&quot;</span> <span class="o">+</span>
+      <span class="s">&quot;</span><span class="err">#</span><span class="s">ModernWeb-wrapper{width:100%;&quot;</span> <span class="o">+</span>
       <span class="s">&quot;display:none;position:absolute;top:0;left:0;z-index:999999;&quot;</span> <span class="o">+</span>
-      <span class="s">&quot;font-family:&#39;Verdana&#39;,&#39;Helvetica&#39;,&#39;sans-serif&#39;;background-color:</span><span class="err">#</span><span class="s">FFF;}&quot;</span> <span class="o">+</span>
+      <span class="s">&quot;font-family:&#39;Verdana&#39;,&#39;Helvetica&#39;,&#39;sans-serif&#39;;background-color:</span><span class="err">#</span><span class="s">FFF;&quot;</span> <span class="o">+</span>
+      <span class="s">&quot;border-bottom:2px solid </span><span class="err">#</span><span class="s">0066FF;}&quot;</span> <span class="o">+</span>
       <span class="s">&quot;.ModernWeb-link{text-decoration:underline;color:</span><span class="err">#</span><span class="s">0066FF;}&quot;</span> <span class="o">+</span>
       <span class="s">&quot;</span><span class="err">#</span><span class="s">ModernWeb-h1{margin:20px;font-size:1.2em;color:</span><span class="err">#</span><span class="s">333;}&quot;</span> <span class="o">+</span>
       <span class="s">&quot;</span><span class="err">#</span><span class="s">ModernWeb-p{margin:20px;font-size:1em;color:</span><span class="err">#</span><span class="s">333;}&quot;</span> <span class="o">+</span>
       <span class="s">&quot;</span><span class="err">#</span><span class="s">ModernWeb-browsers{width:632px;margin:25px auto;}&quot;</span> <span class="o">+</span>
       <span class="s">&quot;.ModernWeb-noborder{border:0;}&quot;</span> <span class="o">+</span>
-      <span class="s">&quot;</span><span class="err">#</span><span class="s">ModernWeb-ietext{font-size:1em;text-align:center;}&quot;</span> <span class="o">+</span>
-      <span class="s">&quot;</span><span class="err">#</span><span class="s">ModernWeb-close{position:absolute;top:20px;right:20px;}&quot;</span> <span class="o">+</span>
-      <span class="s">&quot;</span><span class="err">#</span><span class="s">ModernWeb-wrapper hr{width:100%;border:2px solid </span><span class="err">#</span><span class="s">0066FF;}&quot;</span>
+      <span class="s">&quot;</span><span class="err">#</span><span class="s">ModernWeb-ietext{margin:15px 0;font-size:1em;text-align:center;}&quot;</span> <span class="o">+</span>
+      <span class="s">&quot;</span><span class="err">#</span><span class="s">ModernWeb-close{position:absolute;top:20px;right:20px;}&quot;</span>
 
       <span class="nv">styleTag = </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span> <span class="s">&#39;style&#39;</span>
       <span class="nv">styleTag.type = </span><span class="s">&quot;text/css&quot;</span></pre></div>             </td>           </tr>                               <tr id="section-14">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-14">&#182;</a>               </div>               <p>IE odd behavior:
@@ -126,8 +126,7 @@ http://bit.ly/YXXjhg</p>             </td>             <td class="code">        
       <span class="s">&quot;&lt;a class=&#39;ModernWeb-link&#39; href=&#39;</span><span class="si">#{</span><span class="nx">@IE_DOWNLOAD</span><span class="si">}</span><span class="s">&#39;&gt;&quot;</span> <span class="o">+</span>
       <span class="s">&quot;&lt;p id=&#39;ModernWeb-ietext&#39;&gt;</span><span class="si">#{</span><span class="nx">localeStrings</span><span class="p">.</span><span class="nx">ietext</span><span class="si">}</span><span class="s">&lt;/p&gt;&lt;/a&gt;&quot;</span> <span class="o">+</span>
       <span class="s">&quot;&lt;a id=&#39;ModernWeb-close&#39; class=&#39;ModernWeb-link&#39; href=&#39;</span><span class="err">#</span><span class="s">&#39;&gt;&quot;</span> <span class="o">+</span>
-      <span class="s">&quot;</span><span class="si">#{</span><span class="nx">localeStrings</span><span class="p">.</span><span class="nx">close</span><span class="si">}</span><span class="s">&lt;/a&gt;&quot;</span> <span class="o">+</span>
-      <span class="s">&quot;&lt;hr /&gt;&quot;</span>
+      <span class="s">&quot;</span><span class="si">#{</span><span class="nx">localeStrings</span><span class="p">.</span><span class="nx">close</span><span class="si">}</span><span class="s">&lt;/a&gt;&quot;</span>
 
       <span class="nv">htmlTag = </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span> <span class="s">&#39;div&#39;</span>
       <span class="nv">htmlTag.id = </span><span class="s">&quot;ModernWeb-wrapper&quot;</span>

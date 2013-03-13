@@ -123,17 +123,17 @@ do (window, document) ->
 
       #Building CSS inline to reduce HTTP requests and external dependencies
       cssStyle =
-      "#ModernWeb-wrapper{width:100%;height:25%;min-height:250px;" +
+      "#ModernWeb-wrapper{width:100%;" +
       "display:none;position:absolute;top:0;left:0;z-index:999999;" +
-      "font-family:'Verdana','Helvetica','sans-serif';background-color:#FFF;}" +
+      "font-family:'Verdana','Helvetica','sans-serif';background-color:#FFF;" +
+      "border-bottom:2px solid #0066FF;}" +
       ".ModernWeb-link{text-decoration:underline;color:#0066FF;}" +
       "#ModernWeb-h1{margin:20px;font-size:1.2em;color:#333;}" +
       "#ModernWeb-p{margin:20px;font-size:1em;color:#333;}" +
       "#ModernWeb-browsers{width:632px;margin:25px auto;}" +
       ".ModernWeb-noborder{border:0;}" +
-      "#ModernWeb-ietext{font-size:1em;text-align:center;}" +
-      "#ModernWeb-close{position:absolute;top:20px;right:20px;}" +
-      "#ModernWeb-wrapper hr{width:100%;border:2px solid #0066FF;}"
+      "#ModernWeb-ietext{margin:15px 0;font-size:1em;text-align:center;}" +
+      "#ModernWeb-close{position:absolute;top:20px;right:20px;}"
 
       styleTag = document.createElement 'style'
       styleTag.type = "text/css"
@@ -163,8 +163,7 @@ do (window, document) ->
       "<a class='ModernWeb-link' href='#{@IE_DOWNLOAD}'>" +
       "<p id='ModernWeb-ietext'>#{localeStrings.ietext}</p></a>" +
       "<a id='ModernWeb-close' class='ModernWeb-link' href='#'>" +
-      "#{localeStrings.close}</a>" +
-      "<hr />"
+      "#{localeStrings.close}</a>"
 
       htmlTag = document.createElement 'div'
       htmlTag.id = "ModernWeb-wrapper"
