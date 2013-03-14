@@ -15,7 +15,7 @@ To put it on your website put this script at the end of your body tag:
 Development
 -----------
 
-This project uses Grunt to speed and automate the build process, if you want to contribute follow the instructions:
+This project uses [Grunt](http://gruntjs.com) to speed and automate the build process, if you want to contribute follow the instructions:
 
 1. Download Node.JS with NPM if you don't have it yet. Get it [here](http://nodejs.org/download).
 
