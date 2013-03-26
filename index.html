@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>ModernWeb - A banner that helps people update to a newer, better web</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/html5shiv.js"></script>
+</head>
+<body>
+  <header>
+    <h1>ModernWeb</h1>
+    <p>A banner that helps users update their browsers to newer, better capable ones.</p>
+    <a id="github-ribbon" href="https://github.com/viamarte/modernweb"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+  </header>
+  <div role="main" id="main">
+    <!-- MAIN SECTION: What is ModernWeb and what it does -->
+    <section>
+      <h1>Why ModernWeb?</h1>
+      <p>Web developers have a problem nowadays on the web. There's too many web browsers and there's too many versions
+      of these browsers, some of them from more than a decade ago. ModernWeb purpose is to change that by
+      helping people update their browsers and start seeing a new web. A web that loads faster and it's much
+      more beautiful than before.</p>
+      <p>Many things have changed since the web came to public. Today we have HTML5, CSS3 and newer versions of JavaScript
+      that helps developers create a deeper user experience. Legacy browsers doesn't support these kind of technology as
+      you can see on <a href="http://caniuse.com">http://caniuse.com</a></p>
+      <p>As many web developers know, we have workarounds for those legacy browsers: polyfills and fallbacks. The problem is
+      that the many browsers you want to support the many crap you put in your code, things like checking for features and applying then
+      according to browsers capabilities.</p>
+      <p>So we decided to create this banner. By using it, developers can unleash their creativity and actually show people how great
+      it would be if everyone use a modern browser. In fact, this very own website use this approach, if you are seeing this on
+      a legacy browser you should already be seeing the ModernWeb banner. Update to a newer browser and you should see this page render
+      a little bit better and the banner won't appear.</p>
+    </section>
+    <!-- How it works -->
+    <section>
+      <h1>How it works</h1>
+      <p>ModernWeb works by checking canvas support on the browser. We chose this feature because it helps divide modern browsers from
+      legacy ones. If you need more accurate feature checking we suggest you to use <a href="http://modernizr.com">Modernizr</a> with ModernWeb.displayBanner()
+      method.</p>
+      <p>If the browser doesn't support canvas we show the banner with the option to download the most popular modern browsers.
+      For more information <a href="https://github.com/viamarte/modernweb">Fork the project on Github.</a></p>
+    </section>
+    <!-- SUGGESTED BROWSERS -->
+    <section>
+      <h1>Suggested browsers</h1>
+      <article>
+        <h1 id="chrome">Google Chrome</h1>
+        <p>Google Chrome is an excellent browser made by Google that uses the WebKit engine. It is always updated to be compatible with
+        the latest resources regarding HTML, CSS and JavaScript. It has a nice user interface that is simple to use and an automatic
+        update system that keeps your browser always updated without bothering you.
+        </p>
+      </article>
+      <article>
+        <h1 id="firefox">Mozilla Firefox</h1>
+        <p>Mozilla Firefox is a browser from Mozilla (a non-profit organization that pushes the web forward) that uses the Gecko engine.
+        Firefox is designed to be simple and easy to use, yet pretty customizable. It is important that you keep it always up to date,
+        fortunately Mozilla has implemented an automatic update system in the latest versions of the browser.</p>
+      </article>
+      <article>
+        <h1 id="safari">Apple Safari</h1>
+        <p>Safari is the first browser that used the WebKit engine, which was originally developed by Apple. This browser is a nice
+        option too, as it supports most of the modern features available.</p>
+      </article>
+      <article>
+        <h1 id="opera">Opera</h1>
+        <p>Opera, from Opera Software used to use the Presto engine to render websites, but they decided to switch to WebKit seeking
+        to be compatible with websites developed for WebKit. This browser can be used as reference to developers as it implements
+        new resources very fast.</p>
+      </article>
+      <article>
+        <h1 id="ie">Internet Explorer</h1>
+        <p>This browser used to be a problem to developers worldwide, but since IE10 this has changed. The latest versions of Internet
+        Explorer support many of the modern web APIs.</p>
+      </article>
+    </section>
+    <!-- TABLE OF COMPATIBILITY -->
+    <section>
+      <h1>When the banner appears</h1>
+      <ul>
+        <li>Internet Explorer before 9.0</li>
+        <li>Mozilla Firefox before 2.0</li>
+        <li>Opera before 9.0</li>
+        <li>Desktop Safari before 3.1</li>
+        <li>iOS Safari before 3.2</li>
+        <li>Blackberry browser before 7.0</li>
+        <li>Android browser before 2.1</li>
+        <li>Opera Mobile before 2.1</li>
+      </ul>
+    </section>
+  </div>
+  <!-- AUTHOR/ORGANIZATION -->
+  <footer>
+    <h1>Built by</h1>
+    <div id="built-by">
+      <div id="author">
+        <div id="author-img" class="footer-img"></div>
+        <div class="footer-info" class="clearfix">
+          <h1>Matheus Kautzmann</h1>
+          <p><a href="https://twitter.com/m_kautzmann">@m_kautzmann on Twitter</a><br /><a href="https://github.com/mkautzmann">@mkautzmann on GitHub</a>
+          </p>
+        </div>
+      </div>
+      <div id="organization" class="clearfix">
+        <div id="organization-img" class="footer-img"></div>
+        <div class="footer-info">
+          <h1>Via Marte</h1>
+          <p class="clearfix"><a href="https://twitter.com/viamarte">@viamarte on Twitter</a><br /><a href="https://github.com/viamarte">@viamarte on GitHub</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- SCRIPT THAT SHOWS MODERNWEB BANNER -->
+  <script src="https://s3-sa-east-1.amazonaws.com/modernweb/scripts/ModernWeb.min.js"></script>
+</body>
+</html>
