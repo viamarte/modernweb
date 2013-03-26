@@ -1,6 +1,8 @@
 ModernWeb [![Build Status](https://travis-ci.org/viamarte/modernweb.png)](https://travis-ci.org/viamarte/modernweb)
 =========
 
+![ModernWeb Banner](https://s3-sa-east-1.amazonaws.com/modernweb/screens/modernweb_screenshot.jpg)
+
 A banner that encourages users to improve their web experience by updating their browsers to a HTML5/CSS3 capable.
 The idea came when we were having problems with older versions of Internet Explorer, with so many sites out there
 using great APIs that are not available for older browsers people can't expericence the real web of today. So we
@@ -9,6 +11,8 @@ decided to create ModernWeb, a banner that encourages people to switch to newer,
 To put it on your website put this script at the end of your body tag:
 
 	<script type="text/javascript" src="https://s3-sa-east-1.amazonaws.com/modernweb/scripts/ModernWeb.min.js"></script>
+
+[Check ModernWeb website for more information](http://viamarte.github.com/modernweb)
 
 [Wanna download it? Click here](https://s3-sa-east-1.amazonaws.com/modernweb/scripts/ModernWeb.min.js)
 
