@@ -61,6 +61,7 @@ table {
 body {
 	width: 100%;
 	font-family: 'Roboto', 'Arial', 'sans-serif';
+	overflow-x: hidden; 
 }
 
 header {
@@ -275,6 +276,42 @@ footer a {
 		margin: 10px 0 0 0;
 	}
 
+}
+
+/* Retina browser icons and author images */
+
+@media
+only screen and (-moz-min-device-pixel-radio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	#chrome::before {
+		content: url('img/chrome_icon@2x.png');
+	}
+
+	#firefox::before {
+		content: url('img/firefox_icon@2x.png');
+	}
+
+	#safari::before {
+		content: url('img/safari_icon@2x.png');
+	}
+
+	#opera::before {
+		content: url('img/opera_icon@2x.png');
+	}
+
+	#ie::before {
+		content: url('img/ie_icon@2x.png');
+	}
+
+	#author-img {
+		background: url('http://pt.gravatar.com/userimage/36171941/815f27975ae7379f6f9993326a0aee00.jpg?size=200');
+	}
+
+	#organization-img {
+		background: url('http://pt.gravatar.com/userimage/47053711/f1b5dc5199d2776ae4b7ceb4ad28af03.png?size=200');
+	}
 }
 
 
