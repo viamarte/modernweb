@@ -121,11 +121,14 @@ article>h1 {
 }
 
 article>h1::before {
-	width: 40px;
-	height: 40px;
+	content: '';
+	display: inline-block;
+	width: 30px;
+	height: 30px;
 	position: relative;
 	top:7px;
 	margin-right: 5px;
+	background-size: 30px 30px;
 }
 
 p {
@@ -232,33 +235,23 @@ footer a {
 /* Browser icons */
 
 #chrome::before {
-	content: url('img/chrome_icon.png');
-	width: 30px;
-	height: 30px;
+	background: url('img/chrome_icon.png') no-repeat;
 }
 
 #firefox::before {
-	content: url('img/firefox_icon.png');
-	width: 30px;
-	height: 30px;
+	background: url('img/firefox_icon.png') no-repeat;
 }
 
 #safari::before {
-	content: url('img/safari_icon.png');
-	width: 30px;
-	height: 30px;
+	background: url('img/safari_icon.png') no-repeat;
 }
 
 #opera::before {
-	content: url('img/opera_icon.png');
-	width: 30px;
-	height: 30px;
+	background: url('img/opera_icon.png') no-repeat;
 }
 
 #ie::before {
-	content: url('img/ie_icon.png');
-	width: 30px;
-	height: 30px;
+	background: url('img/ie_icon.png') no-repeat;
 }
 
 /* Responsive layout */
@@ -298,23 +291,23 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#chrome::before {
-		content: url('img/chrome_icon@2x.png');
+		background: url('img/chrome_icon@2x.png') no-repeat;
 	}
 
 	#firefox::before {
-		content: url('img/firefox_icon@2x.png');
+		background: url('img/firefox_icon@2x.png') no-repeat;
 	}
 
 	#safari::before {
-		content: url('img/safari_icon@2x.png');
+		background: url('img/safari_icon@2x.png') no-repeat;
 	}
 
 	#opera::before {
-		content: url('img/opera_icon@2x.png');
+		background: url('img/opera_icon@2x.png') no-repeat;
 	}
 
 	#ie::before {
-		content: url('img/ie_icon@2x.png');
+		background: url('img/ie_icon@2x.png') no-repeat;
 	}
 
 	#author-img {
