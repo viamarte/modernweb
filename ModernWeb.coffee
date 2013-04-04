@@ -89,6 +89,13 @@ do (window, document) ->
         "ietext": "Si lo que desea es actualizar Internet Explorer, " +
         " haga clic aquí"
         "close": "Cerrar"
+      "de":
+        "title": "Ihr Browser ist veraltet"
+        "text": "Ihr Browser ist veraltet. Sie könnten das Web noch besser " +
+        "erleben, wenn Sie einen dieser modernen Browser installieren würden:"
+        "ietext": "Hier klicken, wenn Sie nur Ihren Internet Explorer" +
+        " aktualisieren wollen"
+        "close": "Schließen"
 
     #Avoiding multiple instantiations
     @instantiated: false
