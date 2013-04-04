@@ -70,7 +70,7 @@ Curator: Matheus R. Kautzmann
 
 Contributors:
 
-Be the first!
+Heinrich Goebl - German translation
 
 License
 -------

@@ -1,8 +1,7 @@
-
 (function(window, document) {
   var Cookie, ModernWeb;
-  Cookie = (function() {
 
+  Cookie = (function() {
     function Cookie(name, value, life) {
       if (name != null) {
         this.cookieName = name;
@@ -17,12 +16,14 @@
 
     Cookie.prototype.setCookie = function() {
       var cookie;
+
       cookie = "" + this.cookieName + "=" + this.cookieValue + ";expires=" + this.cookieLife + ";path=/";
       return document.cookie = cookie;
     };
 
     Cookie.prototype.hasCookie = function() {
       var cookies;
+
       cookies = document.cookie;
       if ((cookies.indexOf("" + this.cookieName)) >= 0) {
         return true;
@@ -77,6 +78,12 @@
         "text": "Su navegador no está actualizado, para mejorar su " + "experiencia en la web, por favor actualice su navegador, " + "le sugerimos estas grandes opciones:",
         "ietext": "Si lo que desea es actualizar Internet Explorer, " + " haga clic aquí",
         "close": "Cerrar"
+      },
+      "de": {
+        "title": "Ihr Browser ist veraltet",
+        "text": "Ihr Browser ist veraltet. Sie könnten das Web noch besser " + "erleben, wenn Sie einen dieser modernen Browser installieren würden:",
+        "ietext": "Hier klicken, wenn Sie nur Ihren Internet Explorer" + " aktualisieren wollen",
+        "close": "Schließen"
       }
     };
 
@@ -90,6 +97,7 @@
 
     ModernWeb.prototype.html5Compatible = function() {
       var supportHtml5;
+
       supportHtml5 = !!document.createElement('canvas').getContext;
       if (supportHtml5) {
         return true;
@@ -99,6 +107,7 @@
 
     getLocale = function() {
       var key, localeStrings, value;
+
       localeStrings = null;
       for (key in locales) {
         value = locales[key];
@@ -111,6 +120,7 @@
 
     buildBanner = function() {
       var cssStyle, html, htmlTag, localeStrings, styleTag;
+
       localeStrings = getLocale();
       if (localeStrings == null) {
         localeStrings = locales.en;

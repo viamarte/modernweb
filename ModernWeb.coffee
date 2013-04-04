@@ -3,7 +3,7 @@
 #Author: Matheus R. Kautzmann
 #
 #Contributors:
-#Just me so far :) Feel free to contribute and have your name here.
+#Heinrich Goebl - German translation
 #
 #Company: Via Marte
 #Creation date: 08/03/2013
