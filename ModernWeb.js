@@ -84,6 +84,12 @@
         "text": "Ihr Browser ist veraltet. Sie könnten das Web noch besser " + "erleben, wenn Sie einen dieser modernen Browser installieren würden:",
         "ietext": "Hier klicken, wenn Sie nur Ihren Internet Explorer" + " aktualisieren wollen",
         "close": "Schließen"
+      },
+      "it": {
+        "title": "Il tuo browser non è aggiornato",
+        "text": "Il tuo browser non è aggiornato, per migliorare la tua " + "esperienza sul web per favore aggiornalo, " + "ti suggeriamo queste ottime opzioni:",
+        "ietext": "Se vuoi solamente aggiornare Internet Explorer clicca qui",
+        "close": "Chiudi"
       }
     };
 
