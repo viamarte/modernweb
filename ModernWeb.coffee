@@ -96,6 +96,13 @@ do (window, document) ->
         "ietext": "Hier klicken, wenn Sie nur Ihren Internet Explorer" +
         " aktualisieren wollen"
         "close": "Schließen"
+      "it":
+        "title": "Il tuo browser non è aggiornato"
+        "text": "Il tuo browser non è aggiornato, per migliorare la tua " +
+        "esperienza sul web per favore aggiornalo, " +
+        "ti suggeriamo queste ottime opzioni:"
+        "ietext": "Se vuoi solamente aggiornare Internet Explorer clicca qui"
+        "close": "Chiudi"
 
     #Avoiding multiple instantiations
     @instantiated: false
