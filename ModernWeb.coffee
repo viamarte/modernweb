@@ -1,13 +1,14 @@
-#ModernWeb Core
+# ModernWeb Core
 #
-#Author: Matheus R. Kautzmann
+# Author: Matheus R. Kautzmann
 #
-#Contributors:
-#Heinrich Goebl - German translation
+# Contributors:
+# Heinrich Goebl - German translation
+# Giorgio Polvara - Italian translation
 #
-#Company: Via Marte
-#Creation date: 08/03/2013
-
+# Company: Via Marte
+# Creation date: 08/03/2013
+#
 # This CoffeeScript file is responsible for the main logic of the widget,
 # it detects HTML5 feature and passes the browser if it complies,
 # on practice it will pass IE9+ or IE with Google Chrome Frame,
