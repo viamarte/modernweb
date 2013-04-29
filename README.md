@@ -71,6 +71,7 @@ Curator: Matheus R. Kautzmann
 Contributors:
 
 Heinrich Goebl - German translation
+
 Giorgio Polvara - Italian translation
 
 License
