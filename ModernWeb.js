@@ -131,7 +131,7 @@
       if (localeStrings == null) {
         localeStrings = locales.en;
       }
-      cssStyle = "#ModernWeb-wrapper{width:100%;" + "display:none;position:absolute;top:0;left:0;z-index:999999;" + "font-family:'Verdana','Helvetica','sans-serif';background-color:#FFF;" + "border-bottom:2px solid #0066FF;}" + ".ModernWeb-link{text-decoration:underline;color:#0066FF;}" + "#ModernWeb-h1{margin:20px;font-size:1.2em;color:#333;}" + "#ModernWeb-p{margin:20px;font-size:1em;color:#333;}" + "#ModernWeb-browsers{width:632px;margin:25px auto;}" + ".ModernWeb-noborder{border:0;}" + "#ModernWeb-ietext{margin:15px 0;font-size:1em;text-align:center;}" + "#ModernWeb-close{position:absolute;top:20px;right:20px;}";
+      cssStyle = "#ModernWeb-wrapper{width:100%;" + "display:none;position:absolute;top:0;left:0;z-index:999999;" + "font-family:'Verdana','Helvetica','sans-serif';background-color:#FFF;" + "border-bottom:2px solid #0066FF;}" + ".ModernWeb-link{text-decoration:underline;color:#0066FF;}" + "#ModernWeb-h1{margin:20px;font-size:1.2em;color:#333;}" + "#ModernWeb-p{margin:20px;font-size:1em;color:#333;}" + "#ModernWeb-browsers{width:632px;margin:25px auto;}" + ".ModernWeb-noborder{border:0;}" + "#ModernWeb-ietext{margin:15px 0;font-size:1em;text-align:center;}" + "#ModernWeb-close{position:absolute;top:20px;right:20px;}" + ".ModernWeb-browser-option{display:inline;}";
       styleTag = document.createElement('style');
       styleTag.type = "text/css";
       if (styleTag.styleSheet) {
