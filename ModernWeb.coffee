@@ -148,7 +148,8 @@ do (window, document) ->
       "#ModernWeb-browsers{width:632px;margin:25px auto;}" +
       ".ModernWeb-noborder{border:0;}" +
       "#ModernWeb-ietext{margin:15px 0;font-size:1em;text-align:center;}" +
-      "#ModernWeb-close{position:absolute;top:20px;right:20px;}"
+      "#ModernWeb-close{position:absolute;top:20px;right:20px;}" +
+      ".ModernWeb-browser-option{display:inline;}"
 
       styleTag = document.createElement 'style'
       styleTag.type = "text/css"
@@ -190,7 +191,7 @@ do (window, document) ->
       document.getElementById('ModernWeb-close').onclick = ->
         cookieClass.setCookie()
         document.getElementById('ModernWeb-wrapper').style.display = 'none'
-      
+
     #This displays the banner and avoid the banner to be displayed twice.
     displayBanner: ->
       if !@instantiated
