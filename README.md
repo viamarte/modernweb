@@ -74,6 +74,8 @@ Heinrich Goebl - German translation
 
 Giorgio Polvara - Italian translation
 
+Gregório Chalinski Kusowski - Improvements in the css
+
 License
 -------
 

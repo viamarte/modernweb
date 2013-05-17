@@ -5,6 +5,7 @@
 # Contributors:
 # Heinrich Goebl - German translation
 # Giorgio Polvara - Italian translation
+# Gregório Chalinski Kusowski - Improvements in the css
 #
 # Company: Via Marte
 # Creation date: 08/03/2013
