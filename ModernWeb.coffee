@@ -60,9 +60,9 @@ do (window, document) ->
     "https://s3-sa-east-1.amazonaws.com/modernweb/icons/opera_icon.jpg"
 
     #Browser download pages
-    @CHROME_DOWNLOAD = "https://www.google.com/intl/pt-BR/chrome/browser/"
-    @FIREFOX_DOWNLOAD = "https://www.mozilla.org/pt-BR/firefox/new/"
-    @SAFARI_DOWNLOAD = "https://www.apple.com/br/safari/"
+    @CHROME_DOWNLOAD = "https://google.com/chrome"
+    @FIREFOX_DOWNLOAD = "https://mozilla.com/firefox"
+    @SAFARI_DOWNLOAD = "https://www.apple.com/safari"
 
     #Shortening here because it lacks HTTPS support, :(
     @OPERA_DOWNLOAD = "https://bit.ly/4iRJjb"

@@ -50,11 +50,11 @@
 
     ModernWeb.OPERA_ICON = "https://s3-sa-east-1.amazonaws.com/modernweb/icons/opera_icon.jpg";
 
-    ModernWeb.CHROME_DOWNLOAD = "https://www.google.com/intl/pt-BR/chrome/browser/";
+    ModernWeb.CHROME_DOWNLOAD = "https://google.com/chrome";
 
-    ModernWeb.FIREFOX_DOWNLOAD = "https://www.mozilla.org/pt-BR/firefox/new/";
+    ModernWeb.FIREFOX_DOWNLOAD = "https://mozilla.com/firefox";
 
-    ModernWeb.SAFARI_DOWNLOAD = "https://www.apple.com/br/safari/";
+    ModernWeb.SAFARI_DOWNLOAD = "https://www.apple.com/safari";
 
     ModernWeb.OPERA_DOWNLOAD = "https://bit.ly/4iRJjb";
 
