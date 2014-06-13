@@ -1,6 +1,5 @@
 (function(window, document) {
   var Cookie, ModernWeb;
-
   Cookie = (function() {
     function Cookie(name, value, life) {
       if (name != null) {
@@ -16,14 +15,12 @@
 
     Cookie.prototype.setCookie = function() {
       var cookie;
-
       cookie = "" + this.cookieName + "=" + this.cookieValue + ";expires=" + this.cookieLife + ";path=/";
       return document.cookie = cookie;
     };
 
     Cookie.prototype.hasCookie = function() {
       var cookies;
-
       cookies = document.cookie;
       if ((cookies.indexOf("" + this.cookieName)) >= 0) {
         return true;
@@ -75,8 +72,8 @@
       },
       "fr": {
         "title": "Votre navigateur est obsolète",
-        "text": "Votre navigateur est obsolète, pour améliorer votre navigation" + "sur le web mettez-le à jour. Nous recommandons ces alternatives :",
-        "ietext": "Si vous voulez juste mettre à jour Internet Explorer cliquez ici",
+        "text": "Votre navigateur est obsolète, pour améliorer votre " + "navigation sur le web mettez-le à jour. Nous recommandons ces " + "alternatives :",
+        "ietext": "Si vous voulez juste mettre à jour Internet Explorer " + "cliquez ici",
         "close": "Masquer ce message"
       },
       "es": {
@@ -109,7 +106,6 @@
 
     ModernWeb.prototype.html5Compatible = function() {
       var supportHtml5;
-
       supportHtml5 = !!document.createElement('canvas').getContext;
       if (supportHtml5) {
         return true;
@@ -119,7 +115,6 @@
 
     getLocale = function() {
       var key, localeStrings, value;
-
       localeStrings = null;
       for (key in locales) {
         value = locales[key];
@@ -132,7 +127,6 @@
 
     buildBanner = function() {
       var cssStyle, html, htmlTag, localeStrings, styleTag;
-
       localeStrings = getLocale();
       if (localeStrings == null) {
         localeStrings = locales.en;
