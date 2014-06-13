@@ -73,6 +73,12 @@
         "ietext": "If you just want to update Internet Explorer click here",
         "close": "Dismiss"
       },
+      "fr": {
+        "title": "Votre navigateur est obsolète",
+        "text": "Votre navigateur est obsolète, pour améliorer votre navigation" + "sur le web mettez-le à jour. Nous recommandons ces alternatives :",
+        "ietext": "Si vous voulez juste mettre à jour Internet Explorer cliquez ici",
+        "close": "Masquer ce message"
+      },
       "es": {
         "title": "Su navegador no está actualizado",
         "text": "Su navegador no está actualizado, para mejorar su " + "experiencia en la web, por favor actualice su navegador, " + "le sugerimos estas grandes opciones:",
