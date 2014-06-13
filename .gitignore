@@ -2,3 +2,8 @@
 .DS_Store
 Thumbs.db
 node_modules/
+
+#Ignoring dist files, must build local
+ModernWeb.js
+dist/
+docs/
