@@ -70,7 +70,7 @@ Curator: [Matheus R. Kautzmann](https://github.com/mkautzmann)
 
 Contributors:
 
-[Alexandre Bulté](https://github.com/abulte)
+[Alexandre Bulté](https://github.com/abulte) - French translation
 
 [Heinrich Goebl](https://github.com/hgoebl) - German translation
 
