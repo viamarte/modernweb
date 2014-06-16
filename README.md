@@ -66,15 +66,15 @@ Author:
 
 A Via Marte project.
 
-Curator: Matheus R. Kautzmann
+Curator: [Matheus R. Kautzmann](https://github.com/mkautzmann)
 
 Contributors:
 
-Heinrich Goebl - German translation
+[Heinrich Goebl](https://github.com/hgoebl) - German translation
 
-Giorgio Polvara - Italian translation
+[Giorgio Polvara](https://github.com/Gpx) - Italian translation
 
-Gregório Chalinski Kusowski - Improvements in the css
+[Gregório Chalinski Kusowski](https://github.com/gregoriokusowski) - Improvements in the css
 
 License
 -------
