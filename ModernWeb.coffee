@@ -3,6 +3,7 @@
 # Author: Matheus R. Kautzmann
 #
 # Contributors:
+# Alexandre Bulté - French translation
 # Heinrich Goebl - German translation
 # Giorgio Polvara - Italian translation
 # Gregório Chalinski Kusowski - Improvements in the css

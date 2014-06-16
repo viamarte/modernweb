@@ -70,6 +70,8 @@ Curator: [Matheus R. Kautzmann](https://github.com/mkautzmann)
 
 Contributors:
 
+[Alexandre Bulté](https://github.com/abulte)
+
 [Heinrich Goebl](https://github.com/hgoebl) - German translation
 
 [Giorgio Polvara](https://github.com/Gpx) - Italian translation
